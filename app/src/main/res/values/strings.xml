@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DekutApp</string>
+    <string name="inbox">inbox</string>
+    <string name="lets_get_in_touch_for_more_bookings_and_easy_access">lets_get_in_touch_for_more_bookings_and_easy_access</string>
+    <string name="hello_admin">hello admin</string>
+    <string name="fidelis_mwendwa_nzomo">fidelis mwendwa nzomo</string>
+    <string name="todo">background</string>
+    <string name="logout">Logout</string>
+    <string name="todo1">TODO</string>
+    <string name="voice_call">Voice call</string>
+    <string name="notification">Notification</string>
+</resources>
