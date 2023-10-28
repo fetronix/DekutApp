@@ -1,20 +1,22 @@
-package com.example.dekutapp;
+package com.example.dekutapp.BaseComponents;
 
-import static com.example.dekutapp.Constants.BUSINESS_SHORT_CODE;
-import static com.example.dekutapp.Constants.CALLBACKURL;
-import static com.example.dekutapp.Constants.PARTYB;
-import static com.example.dekutapp.Constants.PASSKEY;
-import static com.example.dekutapp.Constants.TRANSACTION_TYPE;
+import static com.example.dekutapp.BaseComponents.Constants.BUSINESS_SHORT_CODE;
+import static com.example.dekutapp.BaseComponents.Constants.CALLBACKURL;
+import static com.example.dekutapp.BaseComponents.Constants.PARTYB;
+import static com.example.dekutapp.BaseComponents.Constants.PASSKEY;
+import static com.example.dekutapp.BaseComponents.Constants.TRANSACTION_TYPE;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.dekutapp.R;
 import com.example.dekutapp.model.AccessToken;
 import com.example.dekutapp.model.STKPush;
 import com.example.dekutapp.services.DarajaApiClient;
@@ -32,9 +34,12 @@ public class MpesaActivity extends AppCompatActivity implements View.OnClickList
     private DarajaApiClient mApiClient;
     private ProgressDialog mProgressDialog;
 
+    @SuppressLint("NonConstantResourceId")
     @BindView(R.id.etAmount)
     EditText mAmount;
+    @SuppressLint("NonConstantResourceId")
     @BindView(R.id.etPhone)EditText mPhone;
+    @SuppressLint("NonConstantResourceId")
     @BindView(R.id.btnPay)
     Button mPay;
 

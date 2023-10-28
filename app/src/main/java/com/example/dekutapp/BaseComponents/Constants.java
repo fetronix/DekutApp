@@ -1,4 +1,4 @@
-package com.example.dekutapp;
+package com.example.dekutapp.BaseComponents;
 
 public class Constants {
     public static final int CONNECT_TIMEOUT = 60 * 1000;

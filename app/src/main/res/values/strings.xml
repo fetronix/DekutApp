@@ -9,4 +9,5 @@
     <string name="todo1">TODO</string>
     <string name="voice_call">Voice call</string>
     <string name="notification">Notification</string>
+    <string name="welcome_to_dekut_medic_app">Welcome to Dekut Medic App</string>
 </resources>

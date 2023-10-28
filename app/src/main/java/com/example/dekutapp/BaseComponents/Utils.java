@@ -1,4 +1,4 @@
-package com.example.dekutapp;
+package com.example.dekutapp.BaseComponents;
 
 import android.util.Base64;
 

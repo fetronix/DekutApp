@@ -1,10 +1,10 @@
 package com.example.dekutapp.services;
 
 
-import static com.example.dekutapp.Constants.BASE_URL;
-import static com.example.dekutapp.Constants.CONNECT_TIMEOUT;
-import static com.example.dekutapp.Constants.READ_TIMEOUT;
-import static com.example.dekutapp.Constants.WRITE_TIMEOUT;
+import static com.example.dekutapp.BaseComponents.Constants.BASE_URL;
+import static com.example.dekutapp.BaseComponents.Constants.CONNECT_TIMEOUT;
+import static com.example.dekutapp.BaseComponents.Constants.READ_TIMEOUT;
+import static com.example.dekutapp.BaseComponents.Constants.WRITE_TIMEOUT;
 
 import com.example.dekutapp.interceptor.AccessTokenInterceptor;
 import com.example.dekutapp.interceptor.AuthInterceptor;
