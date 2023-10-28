@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "674647941646",
+    "project_id": "dekutapp-74160",
+    "storage_bucket": "dekutapp-74160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674647941646:android:40f0bec13642915575925f",
+        "android_client_info": {
+          "package_name": "com.example.dekutapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1wj5gxneY2U2HZu3aixp9ZBVFSUb9OW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
