@@ -17,7 +17,7 @@
         tools:replace="android:icon"
         tools:targetApi="31">
 
-<!--        admin activitiies files-->
+        <!-- admin activitiies files -->
         <activity
             android:name=".AdminModule.AdminViewDoctorsActivity"
             android:exported="false">
@@ -39,8 +39,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-<!--        basic components files-->
+        <!-- basic components files -->
         <activity
             android:name=".BaseComponents.SplashActivity"
             android:exported="true">
@@ -61,10 +60,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-<!--         doctors components files-->
-
-
+        <!-- doctors components files -->
         <activity
             android:name=".DoctorModule.DoctorDashboardActivity"
             android:exported="false">
@@ -79,8 +75,14 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-<!--        patient files-->
+        <!-- patient files -->
+        <activity
+            android:name=".PatientModule.PatientDoctorViewActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".PatientModule.PatientRegisterActivity"
             android:exported="false">
@@ -102,10 +104,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-<!--        end of all files-->
-
-
     </application>
 
 </manifest>
