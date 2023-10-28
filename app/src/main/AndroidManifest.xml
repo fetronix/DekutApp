@@ -16,6 +16,8 @@
         android:theme="@style/Theme.DekutApp"
         tools:replace="android:icon"
         tools:targetApi="31">
+
+<!--        admin activitiies files-->
         <activity
             android:name=".AdminModule.AdminViewDoctorsActivity"
             android:exported="false">
@@ -24,12 +26,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".DoctorModule.DoctorDashboardActivity"
+            android:name=".AdminModule.AddDoctorActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".AdminModule.AdminDashboardActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+<!--        basic components files-->
         <activity
             android:name=".BaseComponents.SplashActivity"
             android:exported="true">
@@ -43,6 +54,33 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".BaseComponents.MpesaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+<!--         doctors components files-->
+
+
+        <activity
+            android:name=".DoctorModule.DoctorDashboardActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DoctorModule.DoctorLoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+<!--        patient files-->
         <activity
             android:name=".PatientModule.PatientRegisterActivity"
             android:exported="false">
@@ -58,19 +96,16 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".BaseComponents.MpesaActivity"
+            android:name=".PatientModule.PatientDashboardActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".AdminModule.AdminDashboardActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+
+<!--        end of all files-->
+
+
     </application>
 
 </manifest>
