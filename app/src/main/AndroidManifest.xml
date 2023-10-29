@@ -41,6 +41,13 @@
         </activity>
         <!-- basic components files -->
         <activity
+            android:name=".BaseComponents.ForgotPasswordActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".BaseComponents.SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -59,8 +66,7 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity>
-        <!-- doctors components files -->
+        </activity> <!-- doctors components files -->
         <activity
             android:name=".DoctorModule.DoctorDashboardActivity"
             android:exported="false">
@@ -74,8 +80,7 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity>
-        <!-- patient files -->
+        </activity> <!-- patient files -->
         <activity
             android:name=".PatientModule.PatientDoctorViewActivity"
             android:exported="false">
@@ -83,7 +88,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".PatientModule.PatientRegisterActivity"
             android:exported="false">

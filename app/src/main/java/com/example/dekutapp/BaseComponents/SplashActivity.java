@@ -13,6 +13,7 @@ import com.example.dekutapp.DoctorModule.DoctorDashboardActivity;
 import com.example.dekutapp.DoctorModule.DoctorLoginActivity;
 import com.example.dekutapp.PatientModule.PatientDashboardActivity;
 import com.example.dekutapp.PatientModule.PatientLoginActivity;
+import com.example.dekutapp.PatientModule.PatientRegisterActivity;
 import com.example.dekutapp.R;
 
 public class SplashActivity extends AppCompatActivity {
@@ -22,10 +23,19 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        Button doctorsplash ;
+        Button doctorsplash ,patientsplash ;
         doctorsplash = findViewById(R.id.btnroledoctor);
+        patientsplash = findViewById(R.id.btnrolepatient);
 
         doctorsplash.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(SplashActivity.this, DoctorLoginActivity.class);
+                startActivity(i);
+            }
+        });
+
+        patientsplash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(SplashActivity.this, PatientLoginActivity.class);
