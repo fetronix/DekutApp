@@ -10,4 +10,6 @@
     <string name="voice_call">Voice call</string>
     <string name="notification">Notification</string>
     <string name="welcome_to_dekut_medic_app">Welcome to Dekut Medic App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

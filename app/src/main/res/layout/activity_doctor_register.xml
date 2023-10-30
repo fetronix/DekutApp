@@ -1,9 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".DoctorRegisterActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/top_background1"
+tools:context=".DoctorModule.DoctorRegisterActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/white_background">
+
+        <TextView
+            android:id="@+id/doctorregisertext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Register"
+            android:textAlignment="center"
+            android:textColor="#6672FF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/doctorregisterfullname"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/nameplus"
+            android:hint="full name"
+            android:paddingStart="12dp"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#6672FF"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/doctorregisteremail"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:hint="user email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="12dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#6672FF"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/doctorregisterphone"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/phone"
+            android:hint="phone number"
+            android:inputType="phone"
+            android:paddingStart="12dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#6672FF"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/doctorregisterpassword"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/iicpass"
+            android:inputType="textPassword"
+            android:hint="password"
+            android:paddingStart="12dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#6672FF"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/doctorregisterconfpassword"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/iicpass"
+            android:inputType="textPassword"
+            android:hint="confirm password"
+            android:paddingStart="12dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#6672FF"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnregisterdoctor"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:padding="4sp"
+            android:textSize="32sp"
+            android:textColor="#38608C"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/doctorasklogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already a user ? Login.."
+            android:textAlignment="center"
+            android:textColor="#6672FF"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -19,34 +19,12 @@
 
         <!-- admin activitiies files -->
         <activity
-            android:name=".AdminModule.AdminViewDoctorsActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".AdminModule.AddDoctorActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".AdminModule.AdminDashboardActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity>
-        <!-- basic components files -->
-        <activity
-            android:name=".BaseComponents.ForgotPasswordActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+        </activity> <!-- basic components files -->
         <activity
             android:name=".BaseComponents.SplashActivity"
             android:exported="true">
@@ -68,6 +46,14 @@
                 android:value="" />
         </activity> <!-- doctors components files -->
         <activity
+            android:name=".DoctorModule.DoctorRegisterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
             android:name=".DoctorModule.DoctorDashboardActivity"
             android:exported="false">
             <meta-data
@@ -81,13 +67,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity> <!-- patient files -->
-        <activity
-            android:name=".PatientModule.PatientDoctorViewActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
         <activity
             android:name=".PatientModule.PatientRegisterActivity"
             android:exported="false">
